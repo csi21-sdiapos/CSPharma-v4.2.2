@@ -1,0 +1,84 @@
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.deps.json
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.runtimeconfig.json
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.AssemblyReference.cache
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfoInputs.cache
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfo.cs
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.CoreCompileInputs.cache
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\refint\CSPharma-v4.1-DAL.dll
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.genruntimeconfig.cache
+C:\Users\csi21-sdiapos\Desktop\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\ref\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.deps.json
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.runtimeconfig.json
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.AssemblyReference.cache
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfoInputs.cache
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfo.cs
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\refint\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.genruntimeconfig.cache
+C:\Users\Sergio DC\vs2022-workspace\CSPharma-v4.1-DAL\obj\Debug\net6.0\ref\CSPharma-v4.1-DAL.dll
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.deps.json
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.runtimeconfig.json
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.AssemblyReference.cache
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfoInputs.cache
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfo.cs
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.CoreCompileInputs.cache
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\refint\CSPharma-v4.1-DAL.dll
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.genruntimeconfig.cache
+C:\Users\csi21-sdiapos\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\ref\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.deps.json
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.runtimeconfig.json
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.AssemblyReference.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfoInputs.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfo.cs
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\refint\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.genruntimeconfig.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\ref\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.deps.json
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.runtimeconfig.json
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.AssemblyReference.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfoInputs.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfo.cs
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\refint\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.genruntimeconfig.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.1\CSPharma-v4.1-DAL\obj\Debug\net6.0\ref\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.deps.json
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.runtimeconfig.json
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\bin\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.AssemblyReference.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfoInputs.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.AssemblyInfo.cs
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\refint\CSPharma-v4.1-DAL.dll
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.pdb
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\CSPharma-v4.1-DAL.genruntimeconfig.cache
+C:\Users\Sergio DC\Desktop\CSPharma-v4.2.2\CSPharma-v4.1-DAL\obj\Debug\net6.0\ref\CSPharma-v4.1-DAL.dll

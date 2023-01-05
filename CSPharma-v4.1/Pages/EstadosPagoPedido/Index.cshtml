@@ -1,0 +1,59 @@
+﻿@page
+@model CSPharma_v4._1.Pages.EstadosPagoPedido.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="body">
+    <h1>Index</h1>
+
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TdcCatEstadosPagoPedido[0].MdUuid)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TdcCatEstadosPagoPedido[0].MdDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TdcCatEstadosPagoPedido[0].Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TdcCatEstadosPagoPedido[0].DesEstadoPago)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TdcCatEstadosPagoPedido)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MdUuid)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MdDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DesEstadoPago)
+                    </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.CodEstadoPago">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.CodEstadoPago">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.CodEstadoPago">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

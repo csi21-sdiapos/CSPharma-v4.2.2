@@ -1,0 +1,70 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+
+@*<h1>@ViewData["Title"]</h1>*@
+
+<div class="body">
+    <div class="box">
+        <form id="account" method="post" class="form">
+            <h2>Sign In</h2>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="inputBox">
+                <input asp-for="Input.Email" autocomplete="username" aria-required="true" />
+                <span asp-for="Input.Email" class="span">Email</span>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                <i></i>
+            </div>
+
+            <div class="inputBox">
+                <input asp-for="Input.Password" autocomplete="current-password" aria-required="true" />
+                <span asp-for="Input.Password" class="span">Password</span>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                <i></i>
+            </div>
+
+            <!--
+            <div>
+                <div class="checkbox">
+                    <label asp-for="Input.RememberMe" class="form-label">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                    </label>
+                </div>
+            </div>
+            -->
+
+            <div class="links">
+                <a id="forgot-password" asp-page="./ForgotPassword">Forgot Password</a>
+                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">SignUp</a>
+                <!--
+                <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
+                -->
+            </div>
+
+            <input id="login-submit" type="submit" value="Login">
+        </form>
+
+        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form2">
+            <div>
+                <p>
+                    @foreach (var provider in Model.ExternalLogins)
+                    {
+                        <button type="submit" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                    }
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

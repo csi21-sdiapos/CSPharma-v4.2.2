@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CSPharma_v4._1</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Navbar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CSPharma_v4._1.styles.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="logo" asp-page="/Index">
+            <i class="ri-home-heart-fill"></i>
+            <span>
+                <img src="~/css/img/logo-cspharma.png" />
+            </span>
+        </a>
+
+        <ul class="navbar">
+            @if (User.IsInRole("Employees") || User.IsInRole("Administrators"))
+            {
+                <li class="dropdown">
+                    <a class="dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Administración
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a asp-page="/LineasDistribucion/Index">Líneas</a>
+                        </li>
+                        <li>
+                            <a asp-page="/EstadosEnvioPedido/Index">Envíos</a>
+                        </li>
+                        <li>
+                            <a asp-page="/EstadosPagoPedido/Index">Pagos</a>
+                        </li>
+                        <li>
+                            <a asp-page="/EstadosDevolucionPedido/Index">Devoluciones</a>
+                        </li>
+                        <li>
+                            <a asp-page="/EstadoPedidos/Index">Pedidos</a>
+                        </li>
+                    </ul>
+                </li>
+            }
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="dropdown">
+                    <a class="dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Roles
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a asp-page="/Roles/User">User</a>
+                        </li>
+                        <li>
+                            <a asp-page="/Roles/Employee">Employee</a>
+                        </li>
+                        <li>
+                            <a asp-page="/Roles/Admin">Admin</a>
+                        </li>
+                        <li>
+                            <a asp-page="/Privacy/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </li>
+                
+            }
+        </ul>
+
+        <div class="main">
+            <partial name="_LoginPartial" />
+        </div>
+    </header>
+
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    @*
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - CSPharma_v4._1 - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+    *@
+
+    @section Scripts {
+        let menu = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+
+        menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('open');
+        }
+    }
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

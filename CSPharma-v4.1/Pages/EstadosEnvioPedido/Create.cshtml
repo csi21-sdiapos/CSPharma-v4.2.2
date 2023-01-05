@@ -1,0 +1,53 @@
+﻿@page
+@model CSPharma_v4._1.Pages.EstadosEnvioPedido.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="body">
+    <h1>Create</h1>
+
+    <h4>TdcCatEstadosEnvioPedido</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="TdcCatEstadosEnvioPedido.CodEstadoEnvio" class="control-label"></label>
+                    <input asp-for="TdcCatEstadosEnvioPedido.CodEstadoEnvio" class="form-control" />
+                    <span asp-validation-for="TdcCatEstadosEnvioPedido.CodEstadoEnvio" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TdcCatEstadosEnvioPedido.MdUuid" class="control-label"></label>
+                    <input asp-for="TdcCatEstadosEnvioPedido.MdUuid" class="form-control" />
+                    <span asp-validation-for="TdcCatEstadosEnvioPedido.MdUuid" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TdcCatEstadosEnvioPedido.MdDate" class="control-label"></label>
+                    <input asp-for="TdcCatEstadosEnvioPedido.MdDate" class="form-control" />
+                    <span asp-validation-for="TdcCatEstadosEnvioPedido.MdDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TdcCatEstadosEnvioPedido.DesEstadoEnvio" class="control-label"></label>
+                    <input asp-for="TdcCatEstadosEnvioPedido.DesEstadoEnvio" class="form-control" />
+                    <span asp-validation-for="TdcCatEstadosEnvioPedido.DesEstadoEnvio" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-page="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

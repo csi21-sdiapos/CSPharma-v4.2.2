@@ -1,0 +1,47 @@
+﻿@page
+@model CSPharma_v4._1.Pages.EstadosPagoPedido.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="body">
+    <h1>Details</h1>
+
+    <div>
+        <h4>TdcCatEstadosPagoPedido</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatEstadosPagoPedido.MdUuid)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatEstadosPagoPedido.MdUuid)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatEstadosPagoPedido.MdDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatEstadosPagoPedido.MdDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatEstadosPagoPedido.Id)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatEstadosPagoPedido.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatEstadosPagoPedido.DesEstadoPago)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatEstadosPagoPedido.DesEstadoPago)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-page="./Edit" asp-route-id="@Model.TdcCatEstadosPagoPedido?.CodEstadoPago">Edit</a> |
+        <a asp-page="./Index">Back to List</a>
+    </div>
+</div>

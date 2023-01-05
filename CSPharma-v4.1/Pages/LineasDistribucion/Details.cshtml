@@ -1,0 +1,59 @@
+﻿@page
+@model CSPharma_v4._1.Pages.LineasDistribucion.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="body">
+    <h1>Details</h1>
+
+    <div>
+        <h4>TdcCatLineasDistribucion</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatLineasDistribucion.MdUuid)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatLineasDistribucion.MdUuid)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatLineasDistribucion.MdDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatLineasDistribucion.MdDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatLineasDistribucion.Id)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatLineasDistribucion.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatLineasDistribucion.CodProvincia)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatLineasDistribucion.CodProvincia)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatLineasDistribucion.CodMunicipio)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatLineasDistribucion.CodMunicipio)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TdcCatLineasDistribucion.CodBarrio)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TdcCatLineasDistribucion.CodBarrio)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-page="./Edit" asp-route-id="@Model.TdcCatLineasDistribucion?.CodLinea">Edit</a> |
+        <a asp-page="./Index">Back to List</a>
+    </div>
+</div>

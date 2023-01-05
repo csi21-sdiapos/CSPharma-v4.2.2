@@ -1,0 +1,64 @@
+﻿@page
+@model CSPharma_v4._1.Pages.LineasDistribucion.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="body">
+    <h1>Edit</h1>
+
+    <h4>TdcCatLineasDistribucion</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="TdcCatLineasDistribucion.CodLinea" />
+                <div class="form-group">
+                    <label asp-for="TdcCatLineasDistribucion.MdUuid" class="control-label"></label>
+                    <input asp-for="TdcCatLineasDistribucion.MdUuid" class="form-control" />
+                    <span asp-validation-for="TdcCatLineasDistribucion.MdUuid" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TdcCatLineasDistribucion.MdDate" class="control-label"></label>
+                    <input asp-for="TdcCatLineasDistribucion.MdDate" class="form-control" />
+                    <span asp-validation-for="TdcCatLineasDistribucion.MdDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TdcCatLineasDistribucion.Id" class="control-label"></label>
+                    <input asp-for="TdcCatLineasDistribucion.Id" class="form-control" />
+                    <span asp-validation-for="TdcCatLineasDistribucion.Id" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TdcCatLineasDistribucion.CodProvincia" class="control-label"></label>
+                    <input asp-for="TdcCatLineasDistribucion.CodProvincia" class="form-control" />
+                    <span asp-validation-for="TdcCatLineasDistribucion.CodProvincia" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TdcCatLineasDistribucion.CodMunicipio" class="control-label"></label>
+                    <input asp-for="TdcCatLineasDistribucion.CodMunicipio" class="form-control" />
+                    <span asp-validation-for="TdcCatLineasDistribucion.CodMunicipio" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TdcCatLineasDistribucion.CodBarrio" class="control-label"></label>
+                    <input asp-for="TdcCatLineasDistribucion.CodBarrio" class="form-control" />
+                    <span asp-validation-for="TdcCatLineasDistribucion.CodBarrio" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-page="./Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

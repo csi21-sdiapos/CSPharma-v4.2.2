@@ -1,0 +1,64 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<link rel="stylesheet" href="~/css/Register.css" asp-append-version="true" />
+
+@*<h1>@ViewData["Title"]</h1>*@
+
+<div class="body">
+    <div class="box">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form">
+            <h2>Register</h2>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<!--
+            <div class="inputBox">
+                <input asp-for="Input.UsuarioNombre" autocomplete="UsuarioNombre" aria-required="true" />
+                <span asp-for="Input.UsuarioNombre" class="span">UsuarioNombre</span>
+                <span asp-validation-for="Input.UsuarioNombre" class="text-danger"></span>
+                <i></i>
+            </div>
+            
+            <div class="inputBox">
+                <input asp-for="Input.UsuarioApellidos" autocomplete="UsuarioApellidos" aria-required="true" />
+                <span asp-for="Input.UsuarioApellidos" class="span">UsuarioApellidos</span>
+                <span asp-validation-for="Input.UsuarioApellidos" class="text-danger"></span>
+                <i></i>
+            </div>
+-->
+            <div class="inputBox">
+                <input asp-for="Input.Email" autocomplete="username" aria-required="true" />
+                <span asp-for="Input.Email" class="span">Email</span>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                <i></i>
+            </div>
+            
+            <div class="inputBox">
+                <input asp-for="Input.Password" autocomplete="new-password" aria-required="true" />
+                <span asp-for="Input.Password" class="span">Password</span>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                <i></i>
+            </div>
+            
+            <div class="inputBox">
+                <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true" />
+                <span asp-for="Input.ConfirmPassword" class="span">ConfirmPassword</span>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                <i></i>
+            </div>
+
+            <div class="links">
+                <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Login</a>
+            </div>
+
+            <input id="registerSubmit" type="submit" value="Register" />
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,145 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Home</title>
+
+<section>
+
+    <div class="bannerVideo" id="slideShow">
+        <video src="./css/video/investigando-1.mp4" autoplay muted loop class="active"></video>
+        <video src="./css/video/investigando-2.mp4" autoplay muted loop></video>
+        <video src="./css/video/contacto.mp4" autoplay muted loop></video>
+        <video src="./css/video/material.mp4" autoplay muted loop></video>
+    </div>
+
+    <div class="container1">
+
+        @*<header id="navbar">
+            <a href="#" class="logo">World</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <span class="menuIcon" onclick="toggleMenu();"></span>
+        </header>*@
+
+        <div class="content">
+            <div class="bannerText" id="slideShowText">
+                <div class="active">
+                    <h2>CS Pharma</h2>
+                    <p>
+                        La creación del CS Pharma responde a la necesidad de mejorar la gestión de nuestras farmacias.
+                        <br />
+                        CS Pharma dispone de las mejores ofertas de laboratorios, mayoristas y distribuidoras del sector farmaceútico nacional, todo ello en un único espacio.
+                        <br />
+                        Una gran oportunidad para que las farmacias asociadas estén en contacto con las mejores ofertas del sector, de forma totalmente complementaria a los métodos tradicionales.
+                        <br />
+                        CS Pharma, el mejor sistema para optimizar la gestión de su farmacia.
+                    </p>
+                </div>
+                <div>
+                    <h2>Tecnología y profesionales</h2>
+                    <p>
+                        Somos una empresa joven pero con una gran experiencia en el sector farmacéutico, lo que le garantiza una gestión segura y de calidad.
+                        <br/>
+                        Hemos tenido una larga trayectoria en el sector farmacéutico, conociendo en gran medida el sector, los mayoristas, los laboratorios y las empresas suministradoras, lo que nos permite ofrecer a nuestros clientes oportunidad de adquirir su stock de forma más económica.
+                        <br />
+                        En estos momentos nos dedicamos a ayudar tanto a farmacias nuevas y en fase de crecimiento, como a farmacias ya consolidadas que quieran mejor su sistema de venta y gestión, destacando así de su competencia y ofreciendo un servicio de calidad.
+                        <br />
+                        En CS Pharma intentamos optimizar al maximo el stock de nuestra farmacia para poder mejorar la ecuación PVLV/ROTACION con el claro y necesario objetivo de mejorar nuestra rentabilidad yl futuro de su farmacia, elevandola al éxito y a lo más alto del mercado.
+                    </p>
+                </div>
+                <div>
+                    <h2>Gestión y optimización de farmacias.</h2>
+                    <p>
+                        Nuestro sistema de gestión de farmacias se basa en la gestión del stock, la adquisición de productos a mejor coste y asesoramiento con respecto a nuestro sistema y a la gestión de una empresa farmacéutica, alcanzando el éxito y la mejora de la misma.
+                        <br />
+                        Mediante un acceso a su cuenta de usuario en nuestra página web, podrá gestionar y mantener al día los listados de productos, facturas y consumo, asi como de las ofertas puntuales de las que podamos terner acceso, de tal modo que encontrará todo lo necesario para optimizar la gestión de su farmacia en un único sitio, pudiendo acceder asu cuenta y por ende a su documentación y al sistema de gestión desde su ordenador o su teléfono móvil.
+                    </p>
+                </div>
+                <div>
+                    <h2>¿Te gusta nuestra empresa?</h2>
+                    <p>
+                        Visite la sección de inversión para que podamos ponernos en contacto con usted y encontrar juntos el mejor acuerdo.
+                        <br />
+                        Si está interesado en formar parte de nuestro equipo, puede adjuntar su curriculum en la sección de empleo y nuesrtro personal de recursos humanos podrá valorar su candidatura.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <ul class="sci">
+            <li><a href="https://es-es.facebook.com/CSPharma/" target="_blank"><img src="./css/img/facebook.png"></a></li>
+            <li><a href="https://twitter.com/cspharma" target="_blank"><img src="./css/img/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/cspharma_/?hl=es" target="_blank"><img src="./css/img/instagram.png"></a></li>
+        </ul>
+
+        <ul class="controls">
+            <li onclick="prevSlide(); prevSlideText();"><img src="./css/img/left.png"></li>
+            <li onclick="nextSlide(); nextSlideText();"><img src="./css/img/right.png"></li>
+        </ul>
+
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        const slideShow = document.getElementById('slideShow');
+        const slides = slideShow.getElementsByTagName('video');
+        var index = 0;
+
+        function nextSlide() {
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }
+
+        function prevSlide() {
+            slides[index].classList.remove('active');
+            index = (index - 1 + slides.length) % slides.length;
+            slides[index].classList.add('active');
+        }
+
+
+
+        const slideShowText = document.getElementById('slideShowText');
+        const slidesText = slideShowText.getElementsByTagName('div');
+        var i = 0;
+
+        function nextSlideText() {
+            slidesText[i].classList.remove('active');
+            i = (i + 1) % slidesText.length;
+            slidesText[i].classList.add('active');
+        }
+
+        function prevSlideText() {
+            slidesText[i].classList.remove('active');
+            i = (i - 1 + slidesText.length) % slidesText.length;
+            slidesText[i].classList.add('active');
+        }
+
+
+        function toggleMenu() {
+            const menuIcon = document.querySelector('.menuIcon');
+            const navbar = document.getElementById('navbar');
+            menuIcon.classList.toggle('active');
+            navbar.classList.toggle('active');
+        }
+    </script>
+}

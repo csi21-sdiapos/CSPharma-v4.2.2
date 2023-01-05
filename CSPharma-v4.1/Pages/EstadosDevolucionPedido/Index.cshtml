@@ -1,0 +1,59 @@
+﻿@page
+@model CSPharma_v4._1.Pages.EstadosDevolucionPedido.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="body">
+    <h1>Index</h1>
+
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TdcCatEstadosDevolucionPedido[0].MdUuid)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TdcCatEstadosDevolucionPedido[0].MdDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TdcCatEstadosDevolucionPedido[0].Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TdcCatEstadosDevolucionPedido[0].DesEstadoDevolucion)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TdcCatEstadosDevolucionPedido)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MdUuid)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MdDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DesEstadoDevolucion)
+                    </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.CodEstadoDevolucion">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.CodEstadoDevolucion">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.CodEstadoDevolucion">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
